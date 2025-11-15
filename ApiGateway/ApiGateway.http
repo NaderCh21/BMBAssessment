@@ -4,6 +4,17 @@ GET {{ApiGateway_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+### Create Product via Gateway
+POST http://localhost:5241/api/product
+Authorization: BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJVc2VyIiwianRpIjoiMTIyZWY0YTktY2UwYy00MzczLTlhODQtZDNlNzQ4M2M4YmU0IiwiZXhwIjoxNzYzMjE2NDY2LCJpc3MiOiJBcGlHYXRld2F5IiwiYXVkIjoiQXBpR2F0ZXdheUF1ZGllbmNlIn0.FFcE5hl2Mh-9XDpDAY1dCTbpTyLSCWwDwJXv7IlPvtI
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "price": 1200
+}
+
 ### Get All Products via Gateway
-GET http://localhost:5241/api/order
+GET http://localhost:5241/api/product
 Authorization: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJVc2VyIiwianRpIjoiMTIyZWY0YTktY2UwYy00MzczLTlhODQtZDNlNzQ4M2M4YmU0IiwiZXhwIjoxNzYzMjE2NDY2LCJpc3MiOiJBcGlHYXRld2F5IiwiYXVkIjoiQXBpR2F0ZXdheUF1ZGllbmNlIn0.FFcE5hl2Mh-9XDpDAY1dCTbpTyLSCWwDwJXv7IlPvtI

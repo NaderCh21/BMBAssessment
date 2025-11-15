@@ -8,7 +8,7 @@
         public int Quantity { get; set; }
         public decimal Total { get; set; }
 
-        public string ClientId { get; set; } = string.Empty;
+        public int ClientId { get; set; }
 
         public DateTime OrderDate { get; set; }
 

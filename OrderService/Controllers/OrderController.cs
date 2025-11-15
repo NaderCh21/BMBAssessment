@@ -49,26 +49,37 @@ namespace OrderService.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateOrderDto dto)
         {
-            var product = await _httpClient.GetAsync($"/api/product/{dto.ProductId}");
+            // Validate product
+            var productResponse = await _httpClient.GetAsync($"/api/product/{dto.ProductId}");
 
-            if (!product.IsSuccessStatusCode)
+            if (!productResponse.IsSuccessStatusCode)
                 return BadRequest("Invalid ProductId — product does not exist.");
 
-            var productData = await product.Content.ReadFromJsonAsync<ProductResponse>();
+            var productData = await productResponse.Content.ReadFromJsonAsync<ProductResponse>();
 
             if (productData == null)
                 return BadRequest("Cannot read product information.");
 
-            var order = _mapper.Map<Order>(dto);
+            // Calculate total
+            decimal total = productData.Price * dto.Quantity;
 
-            order.Total = productData.Price * dto.Quantity;
-
-            order.CreatedByEmployeeId = "EMP001";
+            // Create order entity
+            var order = new Order
+            {
+                ProductId = dto.ProductId,
+                ClientId = dto.ClientId, 
+                Quantity = dto.Quantity,
+                OrderDate = dto.OrderDate,
+                Total = total,
+                CreatedByEmployeeId = "EMP001"
+            };
 
             var createdOrder = await _orderService.CreateAsync(order);
 
             return CreatedAtAction(nameof(GetById), new { id = createdOrder.Id }, createdOrder);
         }
+
+
 
 
         [HttpPut("{id:int}")]

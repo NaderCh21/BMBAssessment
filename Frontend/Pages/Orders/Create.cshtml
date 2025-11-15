@@ -1,0 +1,76 @@
+﻿@page
+@model Frontend.Pages.Orders.CreateModel
+
+<h2 class="mb-4">Create New Order</h2>
+
+<div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+<form id="orderForm">
+
+    <!-- CLIENT -->
+    <div class="mb-3">
+        <label class="form-label">Client</label>
+        <select asp-for="ClientId" class="form-select" id="ClientId">
+            <option value="">-- Select Client --</option>
+            @foreach (var c in Model.DummyClients)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+        <span asp-validation-for="ClientId" class="text-danger"></span>
+    </div>
+
+    <!-- ORDER DATE -->
+    <div class="mb-3">
+        <label class="form-label">Order Date</label>
+        <input type="date" asp-for="OrderDate" class="form-control" id="OrderDate" />
+        <span asp-validation-for="OrderDate" class="text-danger"></span>
+    </div>
+
+    <!-- PRODUCT -->
+    <div class="mb-3">
+        <label class="form-label">Product</label>
+        <select asp-for="ProductId" class="form-select" id="ProductId">
+            <option value="">-- Select Product --</option>
+            @foreach (var p in Model.Products)
+            {
+                <option value="@p.Id">@p.Name</option>
+            }
+        </select>
+        <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div>
+
+    <!-- QUANTITY -->
+    <div class="mb-3">
+        <label class="form-label">Quantity</label>
+        <input type="number" min="1" asp-for="Quantity" class="form-control" id="Quantity" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="submitOrder()">Submit</button>
+    <a asp-page="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>
+
+
+<script>
+    async function submitOrder() {
+        const order = {
+            clientId: parseInt(document.getElementById("ClientId").value),
+            productId: parseInt(document.getElementById("ProductId").value),
+            quantity: parseInt(document.getElementById("Quantity").value),
+            orderDate: document.getElementById("OrderDate").value
+        };
+
+        const response = await fetch("https://localhost:7259/api/order", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(order)
+        });
+
+        if (response.ok) {
+            window.location.href = "/Orders/Index";
+        } else {
+            alert("Failed to create order");
+        }
+    }
+</script>

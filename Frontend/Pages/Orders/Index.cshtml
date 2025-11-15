@@ -1,0 +1,33 @@
+﻿@page
+@model Frontend.Pages.Orders.IndexModel
+
+<h2>Orders</h2>
+
+<a class="btn btn-primary mb-3" asp-page="Create">Create New Order</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Client</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model.Orders)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>@o.Total</td>
+                <td>@o.ClientId</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-page="Edit" asp-route-id="@o.Id">Edit</a>
+                    <a class="btn btn-sm btn-danger" asp-page="Delete" asp-route-id="@o.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

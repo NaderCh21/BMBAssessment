@@ -1,0 +1,119 @@
+﻿@page "{id:int}"
+@model Frontend.Pages.Orders.EditModel
+
+<h2 class="mb-4">Edit Order</h2>
+
+<!-- FULL VALIDATION SUMMARY -->
+<div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+<form method="post">
+
+    <!-- CLIENT -->
+    <div class="mb-3">
+        <label class="form-label">Client</label>
+        <select class="form-select" asp-for="ClientId">
+            <option value="">-- Select Client --</option>
+            @foreach (var c in Model.Clients)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+        <span asp-validation-for="ClientId" class="text-danger"></span>
+    </div>
+
+    <!-- ORDER DATE -->
+    <div class="mb-3">
+        <label class="form-label">Order Date</label>
+        <input type="date" asp-for="OrderDate" class="form-control" />
+        <span asp-validation-for="OrderDate" class="text-danger"></span>
+    </div>
+
+    <h4 class="mt-4">Products</h4>
+
+    <table class="table table-bordered" id="productsTable">
+        <thead class="table-dark">
+            <tr>
+                <th style="width:50%">Product</th>
+                <th style="width:30%">Quantity</th>
+                <th style="width:20%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.ProductsList.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select class="form-select" name="ProductsList[@i].ProductId">
+                            <option value="">-- Select Product --</option>
+                            @foreach (var p in Model.Products)
+                            {
+                                <option value="@p.Id" selected="@(p.Id == Model.ProductsList[i].ProductId)">
+                                    @p.Name
+                                </option>
+                            }
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number"
+                               min="1"
+                               class="form-control"
+                               name="ProductsList[@i].Quantity"
+                               value="@Model.ProductsList[i].Quantity" />
+                    </td>
+                    <td>
+                        <button type="button"
+                                class="btn btn-danger btn-sm"
+                                onclick="removeRow(this)">
+                            Remove
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-secondary mb-3" onclick="addProductRow()">Add Product</button>
+
+    <div class="mt-4">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-page="Index" class="btn btn-outline-secondary">Cancel</a>
+    </div>
+
+</form>
+
+@section Scripts {
+    <script>
+        function addProductRow() {
+            const table = document.querySelector("#productsTable tbody");
+            const index = table.rows.length;
+
+            const row = `
+            <tr>
+                <td>
+                    <select class="form-select" name="ProductsList[${index}].ProductId">
+                        <option value="">-- Select Product --</option>
+        @foreach (var p in Model.Products)
+        {
+                                <option value="@p.Id">@p.Name</option>
+        }
+                    </select>
+                </td>
+                <td>
+                    <input type="number" min="1" class="form-control" name="ProductsList[${index}].Quantity" />
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger btn-sm" onclick="removeRow(this)">
+                        Remove
+                    </button>
+                </td>
+            </tr>
+            `;
+
+            table.insertAdjacentHTML("beforeend", row);
+        }
+
+        function removeRow(btn) {
+            btn.closest("tr").remove();
+        }
+    </script>
+}
