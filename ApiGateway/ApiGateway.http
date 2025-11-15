@@ -4,3 +4,6 @@ GET {{ApiGateway_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+### Get All Products via Gateway
+GET http://localhost:5241/api/order
+Authorization: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJVc2VyIiwianRpIjoiMTIyZWY0YTktY2UwYy00MzczLTlhODQtZDNlNzQ4M2M4YmU0IiwiZXhwIjoxNzYzMjE2NDY2LCJpc3MiOiJBcGlHYXRld2F5IiwiYXVkIjoiQXBpR2F0ZXdheUF1ZGllbmNlIn0.FFcE5hl2Mh-9XDpDAY1dCTbpTyLSCWwDwJXv7IlPvtI

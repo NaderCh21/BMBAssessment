@@ -74,3 +74,93 @@
 2025-11-15 11:52:17.902 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-11-15 11:52:17.904 +02:00 [INF] Hosting environment: Development
 2025-11-15 11:52:17.904 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 12:56:15.528 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 12:56:15.626 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 12:56:22.228 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 12:56:22.740 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 12:56:23.045 +02:00 [INF] Executed DbCommand (239ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [ProductDb];
+2025-11-15 12:56:23.187 +02:00 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProductDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-11-15 12:56:23.224 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-15 12:56:23.320 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-11-15 12:56:23.321 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-15 12:56:23.339 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-15 12:56:23.352 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-15 12:56:23.368 +02:00 [INF] Applying migration '20251115105615_InitialCreate'.
+2025-11-15 12:56:23.403 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2025-11-15 12:56:23.410 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251115105615_InitialCreate', N'8.0.10');
+2025-11-15 13:11:51.438 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 13:11:51.488 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 13:11:51.642 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:11:51.644 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:11:51.645 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 13:11:52.767 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/ - null null
+2025-11-15 13:11:52.975 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/ - 404 0 null 220.7221ms
+2025-11-15 13:11:53.009 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:6001/, Response status code: 404
+2025-11-15 13:14:25.350 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 13:14:25.405 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 13:14:25.528 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:14:25.530 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:14:25.530 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 13:18:39.105 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 13:18:39.148 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 13:18:39.285 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:18:39.287 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:18:39.288 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 13:20:50.723 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 13:20:50.770 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 13:20:50.917 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:20:50.919 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:20:50.920 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 13:22:02.869 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5211/api/products - null null
+2025-11-15 13:22:02.948 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5211/api/products - 307 0 null 94.5814ms
+2025-11-15 13:22:03.022 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/products - null null
+2025-11-15 13:22:03.031 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/products - 404 0 null 8.654ms
+2025-11-15 13:22:03.036 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:6001/api/products, Response status code: 404
+2025-11-15 13:22:20.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5211/api/products - null null
+2025-11-15 13:22:20.691 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5211/api/products - 307 0 null 7.3502ms
+2025-11-15 13:22:20.699 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/products - null null
+2025-11-15 13:22:20.701 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/products - 404 0 null 2.7311ms
+2025-11-15 13:22:20.703 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:6001/api/products, Response status code: 404
+2025-11-15 13:27:41.245 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 13:27:41.308 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 13:27:41.443 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:27:41.446 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:27:41.448 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 13:28:34.280 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5211/api/product - null null
+2025-11-15 13:28:34.356 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5211/api/product - 307 0 null 92.7345ms
+2025-11-15 13:28:34.455 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 13:28:34.463 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 13:28:34.497 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 13:28:34.924 +02:00 [INF] Fetching all products
+2025-11-15 13:28:35.583 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 13:28:36.645 +02:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 13:28:36.715 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 13:28:36.741 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 2236.3901ms
+2025-11-15 13:28:36.744 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 13:28:36.757 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 2302.7499ms

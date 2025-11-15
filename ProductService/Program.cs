@@ -9,7 +9,7 @@ using ProductService.Services;
 using ProductService.Validators;
 using Serilog;
 
-Console.WriteLine("PROGRAM STARTED");
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,11 +42,11 @@ builder.Services.AddSwaggerGen(options =>
 // Add AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
 
-// EFCore InMemory Database
 builder.Services.AddDbContext<ProductDbContext>(options =>
 {
-    options.UseInMemoryDatabase("ProductsDb");
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 // Dependency Injection for Repos & Services
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

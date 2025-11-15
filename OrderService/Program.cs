@@ -43,11 +43,11 @@ builder.Services.AddSwaggerGen(options =>
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
 
-// EF InMemory
 builder.Services.AddDbContext<OrderDbContext>(options =>
 {
-    options.UseInMemoryDatabase("OrdersDb");
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 // Dependency Injection
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

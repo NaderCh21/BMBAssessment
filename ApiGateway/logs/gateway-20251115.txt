@@ -1,0 +1,154 @@
+2025-11-15 13:11:50.211 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 13:11:50.355 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:11:51.060 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 13:11:51.063 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 13:11:51.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:11:51.225 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:11:51.226 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 13:11:52.202 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/ - null null
+2025-11-15 13:11:52.938 +02:00 [INF] HTTP GET / responded 404 in 168.7814 ms
+2025-11-15 13:11:52.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/ - 404 0 null 766.8077ms
+2025-11-15 13:11:52.994 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/, Response status code: 404
+2025-11-15 13:14:25.159 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 13:14:25.276 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:14:25.628 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 13:14:25.629 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 13:14:25.826 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:14:25.828 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:14:25.829 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 13:14:26.053 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/ - null null
+2025-11-15 13:14:26.250 +02:00 [INF] HTTP GET / responded 404 in 64.6519 ms
+2025-11-15 13:14:26.265 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/ - 404 0 null 214.6286ms
+2025-11-15 13:14:26.275 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/, Response status code: 404
+2025-11-15 13:14:48.541 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/health - null null
+2025-11-15 13:14:48.562 +02:00 [INF] Executing endpoint 'Health checks'
+2025-11-15 13:14:48.572 +02:00 [INF] Executed endpoint 'Health checks'
+2025-11-15 13:14:48.574 +02:00 [INF] HTTP GET /health responded 200 in 16.0314 ms
+2025-11-15 13:14:48.577 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/health - 200 null text/plain 35.7994ms
+2025-11-15 13:14:48.672 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/favicon.ico - null null
+2025-11-15 13:14:48.678 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 3.1595 ms
+2025-11-15 13:14:48.681 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/favicon.ico - 404 0 null 8.6079ms
+2025-11-15 13:14:48.684 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/favicon.ico, Response status code: 404
+2025-11-15 13:15:26.704 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/auth/login - null null
+2025-11-15 13:15:26.718 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-15 13:15:26.719 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-15 13:15:26.720 +02:00 [INF] HTTP GET /auth/login responded 405 in 1.9186 ms
+2025-11-15 13:15:26.721 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/auth/login - 405 0 null 16.4631ms
+2025-11-15 13:15:36.906 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/auth - null null
+2025-11-15 13:15:36.911 +02:00 [INF] HTTP GET /auth responded 404 in 0.1167 ms
+2025-11-15 13:15:36.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/auth - 404 0 null 8.5876ms
+2025-11-15 13:15:36.918 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/auth, Response status code: 404
+2025-11-15 13:15:45.166 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/auth/login - null null
+2025-11-15 13:15:45.170 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-15 13:15:45.172 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-15 13:15:45.172 +02:00 [INF] HTTP GET /auth/login responded 405 in 2.2319 ms
+2025-11-15 13:15:45.175 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/auth/login - 405 0 null 9.2761ms
+2025-11-15 13:18:39.006 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 13:18:39.117 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:18:39.472 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 13:18:39.473 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 13:18:39.670 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:18:39.671 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:18:39.673 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 13:18:39.911 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/ - null null
+2025-11-15 13:18:40.211 +02:00 [INF] HTTP GET / responded 404 in 83.1889 ms
+2025-11-15 13:18:40.230 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/ - 404 0 null 322.9238ms
+2025-11-15 13:18:40.241 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/, Response status code: 404
+2025-11-15 13:20:50.503 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 13:20:50.624 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:20:51.057 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 13:20:51.058 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 13:20:51.224 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:20:51.227 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:20:51.228 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 13:20:51.705 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/ - null null
+2025-11-15 13:20:52.292 +02:00 [INF] HTTP GET / responded 404 in 242.2988 ms
+2025-11-15 13:20:52.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/ - 404 0 null 621.1399ms
+2025-11-15 13:20:52.347 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/, Response status code: 404
+2025-11-15 13:21:01.171 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5241/auth/login - application/json 49
+2025-11-15 13:21:01.193 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 13:21:01.238 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 13:21:06.723 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 13:21:06.743 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 5498.2535ms
+2025-11-15 13:21:06.746 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 13:21:06.748 +02:00 [INF] HTTP POST /auth/login responded 200 in 5568.2044 ms
+2025-11-15 13:21:06.751 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5241/auth/login - 200 null application/json; charset=utf-8 5579.8035ms
+2025-11-15 13:22:02.690 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:22:02.708 +02:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-11-15 13:22:02.722 +02:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-11-15 13:22:02.723 +02:00 [INF] Executing endpoint 'productRoute'
+2025-11-15 13:22:02.761 +02:00 [INF] Proxying to http://localhost:5211/api/products HTTP/2 RequestVersionOrLower 
+2025-11-15 13:22:02.950 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 13:22:02.960 +02:00 [INF] Executed endpoint 'productRoute'
+2025-11-15 13:22:02.962 +02:00 [INF] HTTP GET /api/products responded 307 in 268.1085 ms
+2025-11-15 13:22:02.963 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 307 0 null 273.4102ms
+2025-11-15 13:22:20.631 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:22:20.679 +02:00 [INF] Executing endpoint 'productRoute'
+2025-11-15 13:22:20.681 +02:00 [INF] Proxying to http://localhost:5211/api/products HTTP/2 RequestVersionOrLower 
+2025-11-15 13:22:20.692 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 13:22:20.694 +02:00 [INF] Executed endpoint 'productRoute'
+2025-11-15 13:22:20.696 +02:00 [INF] HTTP GET /api/products responded 307 in 62.8803 ms
+2025-11-15 13:22:20.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 307 0 null 66.4809ms
+2025-11-15 13:26:56.754 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:26:57.026 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:27:00.920 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:27:00.925 +02:00 [INF] HTTP GET /api/products responded 404 in 0.6285 ms
+2025-11-15 13:27:00.927 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 404 0 null 6.4796ms
+2025-11-15 13:27:00.928 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/api/products, Response status code: 404
+2025-11-15 13:27:02.797 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:27:02.799 +02:00 [INF] HTTP GET /api/products responded 404 in 0.2986 ms
+2025-11-15 13:27:02.801 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 404 0 null 4.1623ms
+2025-11-15 13:27:02.803 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/api/products, Response status code: 404
+2025-11-15 13:27:06.548 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:27:06.550 +02:00 [INF] HTTP GET /api/products responded 404 in 0.2736 ms
+2025-11-15 13:27:06.551 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 404 0 null 2.7208ms
+2025-11-15 13:27:06.552 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/api/products, Response status code: 404
+2025-11-15 13:27:40.943 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 13:27:41.057 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:27:41.467 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 13:27:41.469 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 13:27:41.591 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 13:27:41.593 +02:00 [INF] Hosting environment: Development
+2025-11-15 13:27:41.593 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 13:27:41.818 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/ - null null
+2025-11-15 13:27:42.101 +02:00 [INF] HTTP GET / responded 404 in 88.2861 ms
+2025-11-15 13:27:42.117 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/ - 404 0 null 299.9718ms
+2025-11-15 13:27:42.127 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/, Response status code: 404
+2025-11-15 13:27:44.914 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/products - null null
+2025-11-15 13:27:44.998 +02:00 [INF] HTTP GET /api/products responded 404 in 75.4655 ms
+2025-11-15 13:27:45.002 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/products - 404 0 null 88.1507ms
+2025-11-15 13:27:45.005 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5241/api/products, Response status code: 404
+2025-11-15 13:28:34.104 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/product - null null
+2025-11-15 13:28:34.115 +02:00 [INF] Executing endpoint 'productRoute'
+2025-11-15 13:28:34.174 +02:00 [INF] Proxying to http://localhost:5211/api/product HTTP/2 RequestVersionOrLower 
+2025-11-15 13:28:34.361 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 13:28:34.375 +02:00 [INF] Executed endpoint 'productRoute'
+2025-11-15 13:28:34.378 +02:00 [INF] HTTP GET /api/product responded 307 in 268.0195 ms
+2025-11-15 13:28:34.382 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/product - 307 0 null 278.0761ms
+2025-11-15 13:28:53.025 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/orders - null null
+2025-11-15 13:28:53.027 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 13:28:53.029 +02:00 [INF] Proxying to http://localhost:5142/api/orders HTTP/2 RequestVersionOrLower 
+2025-11-15 13:28:53.207 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 13:28:53.211 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 13:28:53.212 +02:00 [INF] HTTP GET /api/orders responded 307 in 184.6709 ms
+2025-11-15 13:28:53.220 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/orders - 307 0 null 194.8314ms
+2025-11-15 13:29:01.392 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:29:01.669 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:29:26.325 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:29:26.588 +02:00 [INF] Loading proxy data from config.
+2025-11-15 13:29:31.085 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5241/api/order - null null
+2025-11-15 13:29:31.093 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 13:29:31.096 +02:00 [INF] Proxying to http://localhost:5142/api/order HTTP/2 RequestVersionOrLower 
+2025-11-15 13:29:31.118 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 13:29:31.120 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 13:29:31.120 +02:00 [INF] HTTP GET /api/order responded 307 in 28.1608 ms
+2025-11-15 13:29:31.122 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5241/api/order - 307 0 null 36.6948ms
