@@ -1,0 +1,71 @@
+2025-11-15 11:34:34.953 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 11:34:35.076 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 11:34:35.226 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 11:34:35.234 +02:00 [INF] Hosting environment: Development
+2025-11-15 11:34:35.236 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 11:34:38.165 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/ - null null
+2025-11-15 11:34:39.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/ - 404 0 null 869.4298ms
+2025-11-15 11:34:39.263 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:6001/, Response status code: 404
+2025-11-15 11:35:20.570 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger - null null
+2025-11-15 11:35:20.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger - 301 0 null 87.738ms
+2025-11-15 11:35:20.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/index.html - null null
+2025-11-15 11:35:20.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/index.html - 200 null text/html;charset=utf-8 113.298ms
+2025-11-15 11:35:20.849 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/swagger-ui.css - null null
+2025-11-15 11:35:20.849 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/swagger-ui-bundle.js - null null
+2025-11-15 11:35:20.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-15 11:35:20.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-15 11:35:20.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/_vs/browserLink - null null
+2025-11-15 11:35:20.936 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 86.268ms
+2025-11-15 11:35:20.977 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-15 11:35:20.978 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-15 11:35:20.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/swagger-ui.css - 200 144929 text/css 132.559ms
+2025-11-15 11:35:20.984 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 134.6085ms
+2025-11-15 11:35:20.991 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-15 11:35:21.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 156.9012ms
+2025-11-15 11:35:21.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 159.672ms
+2025-11-15 11:35:21.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/v1/swagger.json - null null
+2025-11-15 11:35:21.234 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/swagger/favicon-32x32.png - null null
+2025-11-15 11:35:21.237 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.3366ms
+2025-11-15 11:35:21.243 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-15 11:35:21.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/swagger/favicon-32x32.png - 200 628 image/png 12.9005ms
+2025-11-15 11:36:13.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/api/Product - null null
+2025-11-15 11:36:13.657 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 11:36:13.695 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 11:36:14.072 +02:00 [INF] Fetching all products
+2025-11-15 11:36:14.992 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 11:36:15.007 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 1305.4485ms
+2025-11-15 11:36:15.010 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 11:36:15.017 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/api/Product - 200 null application/json; charset=utf-8 1394.3382ms
+2025-11-15 11:36:42.905 +02:00 [INF] Request starting HTTP/2 POST https://localhost:6001/api/Product - application/json 77
+2025-11-15 11:36:42.914 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.Create (ProductService)'
+2025-11-15 11:36:42.925 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ProductService.DTOs.CreateProductDto) on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 11:36:43.008 +02:00 [INF] Creating new product
+2025-11-15 11:36:43.214 +02:00 [INF] Saved 1 entities to in-memory store.
+2025-11-15 11:36:43.227 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductService.DTOs.ProductDto'.
+2025-11-15 11:36:43.270 +02:00 [INF] Executed action ProductService.Controllers.ProductController.Create (ProductService) in 342.3338ms
+2025-11-15 11:36:43.273 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.Create (ProductService)'
+2025-11-15 11:36:43.278 +02:00 [INF] Request finished HTTP/2 POST https://localhost:6001/api/Product - 201 null application/json; charset=utf-8 372.7859ms
+2025-11-15 11:37:24.399 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:6001/api/Product/1 - application/json 83
+2025-11-15 11:37:24.402 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.Update (ProductService)'
+2025-11-15 11:37:24.409 +02:00 [INF] Route matched with {action = "Update", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, ProductService.DTOs.UpdateProductDto) on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 11:37:24.423 +02:00 [INF] Updating product with ID 1
+2025-11-15 11:37:24.529 +02:00 [INF] Saved 1 entities to in-memory store.
+2025-11-15 11:37:24.532 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-15 11:37:24.533 +02:00 [INF] Executed action ProductService.Controllers.ProductController.Update (ProductService) in 122.4096ms
+2025-11-15 11:37:24.535 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.Update (ProductService)'
+2025-11-15 11:37:24.537 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:6001/api/Product/1 - 204 null null 168.4233ms
+2025-11-15 11:37:44.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:6001/api/Product - null null
+2025-11-15 11:37:44.322 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 11:37:44.323 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 11:37:44.325 +02:00 [INF] Fetching all products
+2025-11-15 11:37:44.330 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 11:37:44.332 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 6.9384ms
+2025-11-15 11:37:44.333 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 11:37:44.335 +02:00 [INF] Request finished HTTP/2 GET https://localhost:6001/api/Product - 200 null application/json; charset=utf-8 23.0945ms
+2025-11-15 11:38:24.355 +02:00 [INF] Request starting HTTP/2 POST https://localhost:6001/api/Product - application/json 65
+2025-11-15 11:38:24.364 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.Create (ProductService)'
+2025-11-15 11:38:24.365 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ProductService.DTOs.CreateProductDto) on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 11:38:24.378 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-15 11:38:24.396 +02:00 [INF] Executed action ProductService.Controllers.ProductController.Create (ProductService) in 28.2945ms
+2025-11-15 11:38:24.397 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.Create (ProductService)'
+2025-11-15 11:38:24.398 +02:00 [INF] Request finished HTTP/2 POST https://localhost:6001/api/Product - 400 null application/problem+json; charset=utf-8 43.3545ms
