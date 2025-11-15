@@ -773,3 +773,97 @@ FROM [Products] AS [p]
 2025-11-15 16:54:00.654 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-11-15 16:54:00.656 +02:00 [INF] Hosting environment: Development
 2025-11-15 16:54:00.656 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:04:17.557 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:04:17.651 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:04:18.074 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:04:18.320 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:04:18.392 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:06:20.969 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:06:21.018 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:06:21.152 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:06:21.157 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:06:21.158 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:08:58.031 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:08:58.084 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:08:58.207 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:08:58.209 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:08:58.210 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:09:19.989 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 17:09:20.044 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:09:20.080 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 17:09:20.431 +02:00 [INF] Fetching all products
+2025-11-15 17:09:20.871 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 17:09:21.884 +02:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 17:09:21.950 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:09:22.002 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 1912.0696ms
+2025-11-15 17:09:22.005 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:09:22.020 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 2049.3739ms
+2025-11-15 17:10:37.515 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 17:10:37.519 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:10:37.520 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 17:10:37.523 +02:00 [INF] Fetching all products
+2025-11-15 17:10:37.607 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 17:10:37.613 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:10:37.615 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 92.7027ms
+2025-11-15 17:10:37.619 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:10:37.621 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 106.3065ms
+2025-11-15 17:11:36.084 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:11:36.163 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:11:36.340 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:11:36.347 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:11:36.351 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:12:57.418 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 17:12:57.473 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:12:57.505 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 17:12:57.795 +02:00 [INF] Fetching all products
+2025-11-15 17:12:58.389 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 17:12:59.542 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 17:12:59.633 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:12:59.685 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 2174.1091ms
+2025-11-15 17:12:59.691 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:12:59.714 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 2304.8368ms
+2025-11-15 17:15:29.836 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:15:29.921 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:15:30.273 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:15:30.276 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:15:30.276 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:15:54.103 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 17:15:54.162 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:15:54.199 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 17:15:54.476 +02:00 [INF] Fetching all products
+2025-11-15 17:15:54.873 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 17:15:55.831 +02:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 17:15:55.963 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:15:56.051 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 1846.6246ms
+2025-11-15 17:15:56.053 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:15:56.078 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 1980.2583ms
+2025-11-15 17:24:49.715 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:24:49.768 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:24:49.899 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:24:49.901 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:24:49.902 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:32:27.634 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 17:32:27.734 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 17:32:27.975 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:32:27.984 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:32:27.986 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
+2025-11-15 17:34:24.923 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/api/product - null null
+2025-11-15 17:34:24.983 +02:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:34:25.016 +02:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductController (ProductService).
+2025-11-15 17:34:25.306 +02:00 [INF] Fetching all products
+2025-11-15 17:34:25.834 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-15 17:34:26.836 +02:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2025-11-15 17:34:26.891 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductService.DTOs.ProductDto, ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:34:26.924 +02:00 [INF] Executed action ProductService.Controllers.ProductController.GetAll (ProductService) in 1899.444ms
+2025-11-15 17:34:26.926 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetAll (ProductService)'
+2025-11-15 17:34:26.939 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:6001/api/product - 200 null application/json; charset=utf-8 2029.9239ms

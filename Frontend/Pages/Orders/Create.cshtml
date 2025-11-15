@@ -61,7 +61,7 @@
             orderDate: document.getElementById("OrderDate").value
         };
 
-        const response = await fetch("https://localhost:7259/api/order", {
+        const response = await fetch("/gateway/order", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(order)

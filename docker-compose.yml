@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sql-data:/var/opt/mssql
+    networks:
+      - bmbnet
+
+  productservice:
+    build:
+      context: ./ProductService
+    container_name: productservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=ProductDb;User Id=sa;Password=YourStrongPassword123!
+    depends_on:
+      - sqlserver
+    ports:
+      - "6001:6001"
+    networks:
+      - bmbnet
+
+  orderservice:
+    build:
+      context: ./OrderService
+    container_name: orderservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=OrderDb;User Id=sa;Password=YourStrongPassword123!
+      - ProductServiceUrl=http://productservice:6001
+    depends_on:
+      - sqlserver
+      - productservice
+    ports:
+      - "5142:5142"
+    networks:
+      - bmbnet
+
+  apigateway:
+    build:
+      context: ./ApiGateway
+    container_name: apigateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ProductServiceUrl=http://productservice:6001
+      - OrderServiceUrl=http://orderservice:5142
+    depends_on:
+      - productservice
+      - orderservice
+    ports:
+      - "7259:7259"
+    networks:
+      - bmbnet
+
+networks:
+  bmbnet:
+    driver: bridge

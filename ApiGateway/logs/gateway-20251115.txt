@@ -4142,3 +4142,989 @@ System.Net.Http.HttpRequestException: The SSL connection could not be establishe
 2025-11-15 16:54:12.344 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
 2025-11-15 16:54:12.346 +02:00 [ERR] HTTP GET /gateway/order responded 500 in 6824.9160 ms
 2025-11-15 16:54:12.348 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 500 null text/plain; charset=utf-8 6833.4824ms
+2025-11-15 17:04:16.811 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:04:17.004 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:04:18.241 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:04:18.344 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:04:18.615 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:04:18.625 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:04:18.629 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:05:23.404 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:05:23.567 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:05:23.600 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:05:23.701 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:05:23.721 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 112.1793ms
+2025-11-15 17:05:23.728 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:05:23.731 +02:00 [INF] HTTP POST /auth/login responded 200 in 265.7561 ms
+2025-11-15 17:05:23.739 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 337.8199ms
+2025-11-15 17:05:23.803 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:05:23.850 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:23.860 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:05:23.882 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:23.890 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:26.746 +02:00 [INF] Received HTTP response headers after 2852.523ms - 500
+2025-11-15 17:05:26.748 +02:00 [INF] End processing HTTP request after 2869.1157ms - 500
+2025-11-15 17:05:26.753 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:05:26.755 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2894.0642ms
+2025-11-15 17:05:26.757 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:26.759 +02:00 [ERR] HTTP GET /gateway/order responded 500 in 2952.9419 ms
+2025-11-15 17:05:26.761 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 500 null text/plain; charset=utf-8 2958.0532ms
+2025-11-15 17:05:32.659 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:05:32.668 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:32.669 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:05:32.671 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:32.672 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:35.185 +02:00 [INF] Received HTTP response headers after 2510.867ms - 500
+2025-11-15 17:05:35.186 +02:00 [INF] End processing HTTP request after 2514.9325ms - 500
+2025-11-15 17:05:35.188 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:05:35.190 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2519.1007ms
+2025-11-15 17:05:35.191 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:35.193 +02:00 [ERR] HTTP GET /gateway/order responded 500 in 2530.0412 ms
+2025-11-15 17:05:35.196 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 500 null text/plain; charset=utf-8 2537.4787ms
+2025-11-15 17:05:37.402 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:05:37.405 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:37.406 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:05:37.408 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:37.411 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:05:43.330 +02:00 [INF] Received HTTP response headers after 5917.6556ms - 500
+2025-11-15 17:05:43.331 +02:00 [INF] End processing HTTP request after 5922.5804ms - 500
+2025-11-15 17:05:43.333 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:05:43.334 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 5926.0803ms
+2025-11-15 17:05:43.335 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:05:43.336 +02:00 [ERR] HTTP GET /gateway/order responded 500 in 5932.1254 ms
+2025-11-15 17:05:43.338 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 500 null text/plain; charset=utf-8 5935.8159ms
+2025-11-15 17:06:20.545 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:06:20.720 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:06:21.271 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:06:21.276 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:06:21.430 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:06:21.433 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:06:21.434 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:06:30.688 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:06:30.859 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:06:30.904 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:06:31.015 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:06:31.046 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 132.8415ms
+2025-11-15 17:06:31.055 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:06:31.062 +02:00 [INF] HTTP POST /auth/login responded 200 in 312.1168 ms
+2025-11-15 17:06:31.069 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 384.5058ms
+2025-11-15 17:06:31.140 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:06:31.209 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:06:31.220 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:06:33.552 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:06:33.557 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:06:36.946 +02:00 [INF] Received HTTP response headers after 3383.3893ms - 500
+2025-11-15 17:06:36.950 +02:00 [INF] End processing HTTP request after 3399.6179ms - 500
+2025-11-15 17:08:58.145 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:08:58.252 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:08:58.689 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:08:58.690 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:08:58.849 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:08:58.850 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:08:58.852 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:09:08.352 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:09:08.501 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:09:08.533 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:09:08.673 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:09:08.698 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 155.3017ms
+2025-11-15 17:09:08.706 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:09:08.710 +02:00 [INF] HTTP POST /auth/login responded 200 in 312.4439 ms
+2025-11-15 17:09:08.716 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 367.4397ms
+2025-11-15 17:09:08.762 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:09:08.822 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:08.832 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:09:10.253 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:10.257 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:14.138 +02:00 [INF] Received HTTP response headers after 3876.6714ms - 200
+2025-11-15 17:09:14.141 +02:00 [INF] End processing HTTP request after 3890.4578ms - 200
+2025-11-15 17:09:14.173 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:09:14.184 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 5349.1665ms
+2025-11-15 17:09:14.187 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:14.189 +02:00 [INF] HTTP GET /gateway/order responded 200 in 5424.3654 ms
+2025-11-15 17:09:14.191 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 5428.952ms
+2025-11-15 17:09:19.806 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:09:19.810 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:09:19.813 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:09:19.816 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:09:19.817 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:09:21.995 +02:00 [INF] Received HTTP response headers after 2176.8864ms - 200
+2025-11-15 17:09:21.997 +02:00 [INF] End processing HTTP request after 2180.8405ms - 200
+2025-11-15 17:09:22.017 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Text.Json.JsonElement'.
+2025-11-15 17:09:22.028 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 2213.7126ms
+2025-11-15 17:09:22.030 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:09:22.032 +02:00 [INF] HTTP GET /api/product responded 200 in 2224.2519 ms
+2025-11-15 17:09:22.035 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 200 null application/json; charset=utf-8 2228.9606ms
+2025-11-15 17:09:23.987 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:09:23.991 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:23.992 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:09:25.709 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:25.711 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:26.627 +02:00 [INF] Received HTTP response headers after 914.1299ms - 200
+2025-11-15 17:09:26.628 +02:00 [INF] End processing HTTP request after 918.5031ms - 200
+2025-11-15 17:09:26.629 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:09:26.630 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2636.5122ms
+2025-11-15 17:09:26.632 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:26.633 +02:00 [INF] HTTP GET /gateway/order responded 200 in 2643.3435 ms
+2025-11-15 17:09:26.635 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 2648.4525ms
+2025-11-15 17:09:28.881 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/order/1 - null null
+2025-11-15 17:09:28.884 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:09:28.925 +02:00 [INF] Proxying to http://localhost:5142/api/order/1 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:09:28.939 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:09:28.951 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:09:28.953 +02:00 [INF] HTTP GET /api/order/1 responded 307 in 69.4717 ms
+2025-11-15 17:09:28.956 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/order/1 - 307 0 null 75.0189ms
+2025-11-15 17:09:31.188 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7259/api/order/1 - null null
+2025-11-15 17:09:31.191 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:09:31.193 +02:00 [INF] Proxying to http://localhost:5142/api/order/1 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:09:31.198 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:09:31.200 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:09:31.202 +02:00 [INF] HTTP DELETE /api/order/1 responded 307 in 10.7603 ms
+2025-11-15 17:09:31.204 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7259/api/order/1 - 307 0 null 15.6268ms
+2025-11-15 17:09:31.430 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:09:31.433 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:31.435 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:09:34.673 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:34.675 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:35.352 +02:00 [INF] Received HTTP response headers after 676.4861ms - 200
+2025-11-15 17:09:35.355 +02:00 [INF] End processing HTTP request after 681.3846ms - 200
+2025-11-15 17:09:35.356 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:09:35.358 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 3917.1106ms
+2025-11-15 17:09:35.359 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:35.362 +02:00 [INF] HTTP GET /gateway/order responded 200 in 3929.6241 ms
+2025-11-15 17:09:35.367 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 3936.9806ms
+2025-11-15 17:09:39.717 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/order/2 - null null
+2025-11-15 17:09:39.720 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:09:39.721 +02:00 [INF] Proxying to http://localhost:5142/api/order/2 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:09:39.726 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:09:39.728 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:09:39.729 +02:00 [INF] HTTP GET /api/order/2 responded 307 in 9.3591 ms
+2025-11-15 17:09:39.732 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/order/2 - 307 0 null 14.1434ms
+2025-11-15 17:09:41.402 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7259/api/order/2 - null null
+2025-11-15 17:09:41.405 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:09:41.408 +02:00 [INF] Proxying to http://localhost:5142/api/order/2 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:09:41.413 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:09:41.422 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:09:41.423 +02:00 [INF] HTTP DELETE /api/order/2 responded 307 in 18.3291 ms
+2025-11-15 17:09:41.426 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7259/api/order/2 - 307 0 null 24.3921ms
+2025-11-15 17:09:41.469 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:09:41.471 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:41.472 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:09:42.597 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:42.599 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:09:43.379 +02:00 [INF] Received HTTP response headers after 779.1318ms - 200
+2025-11-15 17:09:43.380 +02:00 [INF] End processing HTTP request after 783.0946ms - 200
+2025-11-15 17:09:43.382 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:09:43.383 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 1910.3552ms
+2025-11-15 17:09:43.385 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:09:43.386 +02:00 [INF] HTTP GET /gateway/order responded 200 in 1915.2532 ms
+2025-11-15 17:09:43.389 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 1920.2379ms
+2025-11-15 17:09:46.128 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/clients - null null
+2025-11-15 17:09:46.132 +02:00 [INF] HTTP GET /api/clients responded 404 in 0.5126 ms
+2025-11-15 17:09:46.135 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/clients - 404 0 null 6.4682ms
+2025-11-15 17:09:46.139 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/api/clients, Response status code: 404
+2025-11-15 17:09:46.144 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/products - null null
+2025-11-15 17:09:46.148 +02:00 [INF] HTTP GET /api/products responded 404 in 0.1301 ms
+2025-11-15 17:09:46.149 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/products - 404 0 null 5.4399ms
+2025-11-15 17:09:46.153 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/api/products, Response status code: 404
+2025-11-15 17:09:46.157 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/order/3 - null null
+2025-11-15 17:09:46.159 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:09:46.160 +02:00 [INF] Proxying to http://localhost:5142/api/order/3 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:09:46.167 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:09:46.169 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:09:46.169 +02:00 [INF] HTTP GET /api/order/3 responded 307 in 10.1642 ms
+2025-11-15 17:09:46.171 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/order/3 - 307 0 null 13.1524ms
+2025-11-15 17:10:37.483 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:10:37.487 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:10:37.488 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:10:37.490 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:10:37.491 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:10:37.615 +02:00 [INF] Received HTTP response headers after 123.2953ms - 200
+2025-11-15 17:10:37.617 +02:00 [INF] End processing HTTP request after 127.2589ms - 200
+2025-11-15 17:10:37.621 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Text.Json.JsonElement'.
+2025-11-15 17:10:37.622 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 132.8318ms
+2025-11-15 17:10:37.623 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:10:37.624 +02:00 [INF] HTTP GET /api/product responded 200 in 137.9807 ms
+2025-11-15 17:10:37.626 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 200 null application/json; charset=utf-8 143.3026ms
+2025-11-15 17:10:41.784 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7259/api/order - null null
+2025-11-15 17:10:41.790 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:41.793 +02:00 [INF] HTTP OPTIONS /api/order responded 204 in 5.2163 ms
+2025-11-15 17:10:41.797 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7259/api/order - 204 null null 13.7688ms
+2025-11-15 17:10:41.803 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7259/api/order - application/json 66
+2025-11-15 17:10:41.807 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:41.808 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:10:41.812 +02:00 [INF] Proxying to http://localhost:5142/api/order HTTP/2 RequestVersionOrLower 
+2025-11-15 17:10:41.829 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:10:41.833 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:10:41.834 +02:00 [INF] HTTP POST /api/order responded 307 in 27.5357 ms
+2025-11-15 17:10:41.838 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7259/api/order - 307 0 null 35.0724ms
+2025-11-15 17:10:44.461 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7259/api/order - application/json 66
+2025-11-15 17:10:44.464 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:44.465 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:10:44.466 +02:00 [INF] Proxying to http://localhost:5142/api/order HTTP/2 RequestVersionOrLower 
+2025-11-15 17:10:44.474 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:10:44.476 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:10:44.478 +02:00 [INF] HTTP POST /api/order responded 307 in 13.7243 ms
+2025-11-15 17:10:44.480 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7259/api/order - 307 0 null 19.0557ms
+2025-11-15 17:10:45.349 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7259/api/order - application/json 66
+2025-11-15 17:10:45.352 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:45.353 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:10:45.354 +02:00 [INF] Proxying to http://localhost:5142/api/order HTTP/2 RequestVersionOrLower 
+2025-11-15 17:10:45.359 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:10:45.360 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:10:45.362 +02:00 [INF] HTTP POST /api/order responded 307 in 10.4343 ms
+2025-11-15 17:10:45.364 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7259/api/order - 307 0 null 15.6008ms
+2025-11-15 17:10:52.640 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7259/api/order - null null
+2025-11-15 17:10:52.643 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:52.644 +02:00 [INF] HTTP OPTIONS /api/order responded 204 in 0.8584 ms
+2025-11-15 17:10:52.651 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7259/api/order - 204 null null 10.6602ms
+2025-11-15 17:10:52.654 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7259/api/order - application/json 66
+2025-11-15 17:10:52.659 +02:00 [INF] CORS policy execution successful.
+2025-11-15 17:10:52.660 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:10:52.662 +02:00 [INF] Proxying to http://localhost:5142/api/order HTTP/2 RequestVersionOrLower 
+2025-11-15 17:10:52.671 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:10:52.673 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:10:52.675 +02:00 [INF] HTTP POST /api/order responded 307 in 16.3440 ms
+2025-11-15 17:10:52.680 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7259/api/order - 307 0 null 25.8109ms
+2025-11-15 17:11:35.553 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:11:35.749 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:11:36.369 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:11:36.373 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:11:36.572 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:11:36.574 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:11:36.575 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:12:38.997 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:12:39.271 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:12:39.310 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:12:39.445 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:12:39.468 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 150.9594ms
+2025-11-15 17:12:39.475 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:12:39.479 +02:00 [INF] HTTP POST /auth/login responded 200 in 391.0673 ms
+2025-11-15 17:12:39.485 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 490.8227ms
+2025-11-15 17:12:39.537 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:12:39.617 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:12:39.631 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:12:42.732 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:12:42.737 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:12:47.338 +02:00 [INF] Received HTTP response headers after 4597.3107ms - 200
+2025-11-15 17:12:47.342 +02:00 [INF] End processing HTTP request after 4611.7145ms - 200
+2025-11-15 17:12:47.380 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:12:47.396 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 7759.6007ms
+2025-11-15 17:12:47.399 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:12:47.401 +02:00 [INF] HTTP GET /gateway/order responded 200 in 7860.3202 ms
+2025-11-15 17:12:47.406 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 7868.459ms
+2025-11-15 17:12:48.762 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/clients - null null
+2025-11-15 17:12:48.771 +02:00 [INF] HTTP GET /api/clients responded 404 in 5.1764 ms
+2025-11-15 17:12:48.774 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/clients - 404 0 null 11.5765ms
+2025-11-15 17:12:48.780 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/api/clients, Response status code: 404
+2025-11-15 17:12:48.783 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/products - null null
+2025-11-15 17:12:48.786 +02:00 [INF] HTTP GET /api/products responded 404 in 0.1735 ms
+2025-11-15 17:12:48.789 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/products - 404 0 null 5.7583ms
+2025-11-15 17:12:48.792 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/api/products, Response status code: 404
+2025-11-15 17:12:48.798 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/order/3 - null null
+2025-11-15 17:12:48.800 +02:00 [INF] Executing endpoint 'orderRoute'
+2025-11-15 17:12:48.862 +02:00 [INF] Proxying to http://localhost:5142/api/order/3 HTTP/2 RequestVersionOrLower 
+2025-11-15 17:12:48.882 +02:00 [INF] Received HTTP/1.1 response 307.
+2025-11-15 17:12:48.896 +02:00 [INF] Executed endpoint 'orderRoute'
+2025-11-15 17:12:48.897 +02:00 [INF] HTTP GET /api/order/3 responded 307 in 97.0051 ms
+2025-11-15 17:12:48.900 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/order/3 - 307 0 null 102.3197ms
+2025-11-15 17:12:57.245 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:12:57.248 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:12:57.255 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:12:57.262 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:12:57.263 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:12:59.678 +02:00 [INF] Received HTTP response headers after 2413.2588ms - 200
+2025-11-15 17:12:59.681 +02:00 [INF] End processing HTTP request after 2419.2188ms - 200
+2025-11-15 17:12:59.704 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Text.Json.JsonElement'.
+2025-11-15 17:12:59.723 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 2464.8371ms
+2025-11-15 17:12:59.730 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:12:59.740 +02:00 [INF] HTTP GET /api/product responded 200 in 2492.3258 ms
+2025-11-15 17:12:59.744 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 200 null application/json; charset=utf-8 2498.3758ms
+2025-11-15 17:15:29.286 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:15:29.467 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:15:30.195 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:15:30.198 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:15:30.415 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:15:30.418 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:15:30.419 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:15:48.139 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:15:48.358 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:15:48.416 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:15:48.577 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:15:48.608 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 180.3218ms
+2025-11-15 17:15:48.618 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:15:48.624 +02:00 [INF] HTTP POST /auth/login responded 200 in 434.6533 ms
+2025-11-15 17:15:48.634 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 495.667ms
+2025-11-15 17:15:48.708 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:15:48.756 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:15:48.766 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:15:48.789 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:15:48.793 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:15:51.244 +02:00 [INF] Received HTTP response headers after 2443.5709ms - 200
+2025-11-15 17:15:51.247 +02:00 [INF] End processing HTTP request after 2459.6176ms - 200
+2025-11-15 17:15:51.275 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:15:51.286 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2516.9497ms
+2025-11-15 17:15:51.288 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:15:51.290 +02:00 [INF] HTTP GET /gateway/order responded 200 in 2576.4643 ms
+2025-11-15 17:15:51.293 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 2584.3162ms
+2025-11-15 17:15:53.951 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:15:53.957 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:15:53.962 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:15:53.966 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:15:53.967 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:15:56.045 +02:00 [INF] Received HTTP response headers after 2076.9704ms - 200
+2025-11-15 17:15:56.047 +02:00 [INF] End processing HTTP request after 2080.6765ms - 200
+2025-11-15 17:15:56.070 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Text.Json.JsonElement'.
+2025-11-15 17:15:56.084 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 2120.1386ms
+2025-11-15 17:15:56.087 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:15:56.103 +02:00 [INF] HTTP GET /api/product responded 200 in 2148.7765 ms
+2025-11-15 17:15:56.105 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 200 null application/json; charset=utf-8 2153.8422ms
+2025-11-15 17:16:11.177 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:16:11.182 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.5171 ms
+2025-11-15 17:16:11.185 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 7.478ms
+2025-11-15 17:16:11.188 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:16:11.199 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:16:11.202 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.2208 ms
+2025-11-15 17:16:11.204 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 5.0456ms
+2025-11-15 17:16:11.212 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:16:11.233 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:16:11.237 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:11.238 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:16:11.241 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:11.245 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:11.427 +02:00 [INF] Received HTTP response headers after 181.3389ms - 200
+2025-11-15 17:16:11.430 +02:00 [INF] End processing HTTP request after 188.1368ms - 200
+2025-11-15 17:16:11.441 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:16:11.443 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 202.1964ms
+2025-11-15 17:16:11.446 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:11.449 +02:00 [INF] HTTP GET /gateway/order responded 200 in 212.4446 ms
+2025-11-15 17:16:11.452 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 218.1415ms
+2025-11-15 17:16:13.278 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:16:13.282 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.3103 ms
+2025-11-15 17:16:13.284 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 5.6933ms
+2025-11-15 17:16:13.290 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:16:13.302 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:16:13.305 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.1386 ms
+2025-11-15 17:16:13.308 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 6.1641ms
+2025-11-15 17:16:13.315 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:16:13.331 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:16:13.334 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:13.336 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:16:13.338 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:13.339 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:13.395 +02:00 [INF] Received HTTP response headers after 54.3435ms - 200
+2025-11-15 17:16:13.397 +02:00 [INF] End processing HTTP request after 58.8872ms - 200
+2025-11-15 17:16:13.399 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:16:13.402 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 63.9621ms
+2025-11-15 17:16:13.404 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:13.406 +02:00 [INF] HTTP GET /gateway/order responded 200 in 71.9367 ms
+2025-11-15 17:16:13.409 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 78.5318ms
+2025-11-15 17:16:16.865 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:16:16.867 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.1467 ms
+2025-11-15 17:16:16.869 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 3.4027ms
+2025-11-15 17:16:16.871 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:16:16.877 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:16:16.879 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.1381 ms
+2025-11-15 17:16:16.880 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 3.4418ms
+2025-11-15 17:16:16.882 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:16:16.892 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:16:16.894 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:16.895 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:16:16.897 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:16.897 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:16.916 +02:00 [INF] Received HTTP response headers after 17.2782ms - 200
+2025-11-15 17:16:16.918 +02:00 [INF] End processing HTTP request after 20.805ms - 200
+2025-11-15 17:16:16.920 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:16:16.922 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 24.9518ms
+2025-11-15 17:16:16.923 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:16.924 +02:00 [INF] HTTP GET /gateway/order responded 200 in 30.4458 ms
+2025-11-15 17:16:16.927 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 35.0484ms
+2025-11-15 17:16:17.588 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:16:17.591 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.1627 ms
+2025-11-15 17:16:17.594 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 6.6839ms
+2025-11-15 17:16:17.598 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:16:17.604 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:16:17.606 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.2112 ms
+2025-11-15 17:16:17.608 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 4.5038ms
+2025-11-15 17:16:17.617 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:16:17.632 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:16:17.635 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:17.636 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:16:17.637 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:17.639 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:17.663 +02:00 [INF] Received HTTP response headers after 22.3755ms - 200
+2025-11-15 17:16:17.664 +02:00 [INF] End processing HTTP request after 27.0652ms - 200
+2025-11-15 17:16:17.666 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:16:17.669 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 31.3563ms
+2025-11-15 17:16:17.673 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:17.675 +02:00 [INF] HTTP GET /gateway/order responded 200 in 40.5749 ms
+2025-11-15 17:16:17.678 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 46.0621ms
+2025-11-15 17:16:23.054 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:16:23.057 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.1477 ms
+2025-11-15 17:16:23.060 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 4.9845ms
+2025-11-15 17:16:23.068 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:16:23.077 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:16:23.080 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.3121 ms
+2025-11-15 17:16:23.082 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 4.8186ms
+2025-11-15 17:16:23.085 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:16:23.107 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:16:23.113 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:23.114 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:16:23.115 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:23.117 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:16:23.137 +02:00 [INF] Received HTTP response headers after 20.062ms - 200
+2025-11-15 17:16:23.139 +02:00 [INF] End processing HTTP request after 23.3522ms - 200
+2025-11-15 17:16:23.143 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:16:23.145 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 29.4695ms
+2025-11-15 17:16:23.147 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:16:23.148 +02:00 [INF] HTTP GET /gateway/order responded 200 in 36.0195 ms
+2025-11-15 17:16:23.151 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 43.4213ms
+2025-11-15 17:24:49.435 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:24:49.526 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:24:49.997 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:24:49.999 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:24:50.125 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:24:50.127 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:24:50.129 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:24:54.975 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:24:55.233 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:24:55.266 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:24:55.387 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:24:55.410 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 136.2386ms
+2025-11-15 17:24:55.421 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:24:55.423 +02:00 [INF] HTTP POST /auth/login responded 200 in 363.2670 ms
+2025-11-15 17:24:55.430 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 459.8321ms
+2025-11-15 17:24:55.480 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:24:55.543 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:24:55.554 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:24:55.581 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:24:55.590 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:24:58.071 +02:00 [INF] Received HTTP response headers after 2474.808ms - 200
+2025-11-15 17:24:58.074 +02:00 [INF] End processing HTTP request after 2495.8285ms - 200
+2025-11-15 17:24:58.101 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:24:58.112 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2555.2704ms
+2025-11-15 17:24:58.115 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:24:58.117 +02:00 [INF] HTTP GET /gateway/order responded 200 in 2634.3883 ms
+2025-11-15 17:24:58.121 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 2640.2686ms
+2025-11-15 17:25:00.497 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:25:00.502 +02:00 [INF] HTTP GET /gateway/product responded 404 in 2.2352 ms
+2025-11-15 17:25:00.503 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 6.4493ms
+2025-11-15 17:25:00.507 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:26:01.429 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:26:01.432 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:26:01.451 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:26:01.459 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:01.462 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:01.655 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:26:01.659 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:26:01.660 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:26:01.661 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:01.662 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:19.049 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:26:19.218 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:26:19.862 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:26:19.865 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:26:20.046 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:26:20.048 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:26:20.050 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:26:26.205 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:26:26.365 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:26:26.390 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:26:26.529 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:26:26.549 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 153.4097ms
+2025-11-15 17:26:26.557 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:26:26.560 +02:00 [INF] HTTP POST /auth/login responded 200 in 294.9837 ms
+2025-11-15 17:26:26.568 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 364.9732ms
+2025-11-15 17:26:26.632 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:26:26.712 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:26:26.726 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:26:26.764 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:26:26.775 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:26:28.925 +02:00 [INF] Received HTTP response headers after 2144.6105ms - 200
+2025-11-15 17:26:28.927 +02:00 [INF] End processing HTTP request after 2168.0094ms - 200
+2025-11-15 17:26:28.955 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:26:28.965 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2235.3633ms
+2025-11-15 17:26:28.967 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:26:28.969 +02:00 [INF] HTTP GET /gateway/order responded 200 in 2334.3132 ms
+2025-11-15 17:26:28.973 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 2340.3777ms
+2025-11-15 17:26:31.306 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:26:31.316 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:26:31.322 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:26:31.331 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:31.333 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:39.710 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:26:39.714 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:26:39.715 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:26:39.716 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:39.717 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:40.824 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:26:40.826 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:26:40.827 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:26:40.829 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:26:40.830 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:27:32.871 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:27:32.878 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:27:32.879 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:27:32.882 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:27:32.883 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 2.5309ms
+2025-11-15 17:27:32.884 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:27:32.886 +02:00 [INF] HTTP POST /auth/login responded 200 in 7.6409 ms
+2025-11-15 17:27:32.887 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 16.4853ms
+2025-11-15 17:27:32.900 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:27:32.903 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:27:32.904 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:27:32.905 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:27:32.906 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:27:33.056 +02:00 [INF] Received HTTP response headers after 150.0108ms - 200
+2025-11-15 17:27:33.059 +02:00 [INF] End processing HTTP request after 153.8235ms - 200
+2025-11-15 17:27:33.061 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:27:33.062 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 157.0635ms
+2025-11-15 17:27:33.063 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:27:33.064 +02:00 [INF] HTTP GET /gateway/order responded 200 in 161.6773 ms
+2025-11-15 17:27:33.066 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 165.5624ms
+2025-11-15 17:27:34.859 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:27:34.863 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:27:34.864 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:27:34.867 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:27:34.868 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:28:11.420 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 100094.6028ms
+2025-11-15 17:28:11.422 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:28:11.423 +02:00 [ERR] HTTP GET /api/product responded 500 in 100111.7694 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at ApiGateway.Controllers.ProductsController.Get() in C:\Users\nader\source\repos\BMBAssessment\ApiGateway\Controllers\ProductsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 17:28:11.475 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 499 null null 100169.3286ms
+2025-11-15 17:28:19.762 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 100045.749ms
+2025-11-15 17:28:19.763 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:28:19.764 +02:00 [ERR] HTTP GET /api/product responded 500 in 100050.8710 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at ApiGateway.Controllers.ProductsController.Get() in C:\Users\nader\source\repos\BMBAssessment\ApiGateway\Controllers\ProductsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 17:28:19.773 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 499 null null 100063.4878ms
+2025-11-15 17:28:20.870 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 100041.3854ms
+2025-11-15 17:28:20.872 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:28:20.873 +02:00 [ERR] HTTP GET /api/product responded 500 in 100047.0795 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at ApiGateway.Controllers.ProductsController.Get() in C:\Users\nader\source\repos\BMBAssessment\ApiGateway\Controllers\ProductsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 17:28:20.884 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 499 null null 100059.9289ms
+2025-11-15 17:28:46.216 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:28:46.318 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:28:46.844 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:28:46.847 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:28:46.971 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:28:47.094 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:28:47.095 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:28:51.856 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:28:52.033 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:28:52.073 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:28:52.216 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:28:52.244 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 162.9311ms
+2025-11-15 17:28:52.254 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:28:52.260 +02:00 [INF] HTTP POST /auth/login responded 200 in 357.0152 ms
+2025-11-15 17:28:52.269 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 413.4326ms
+2025-11-15 17:28:52.322 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:28:52.404 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:28:52.422 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:28:52.463 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:28:52.470 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:28:54.407 +02:00 [INF] Received HTTP response headers after 1931.6634ms - 200
+2025-11-15 17:28:54.410 +02:00 [INF] End processing HTTP request after 1951.1476ms - 200
+2025-11-15 17:28:54.437 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:28:54.448 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 2020.292ms
+2025-11-15 17:28:54.450 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:28:54.452 +02:00 [INF] HTTP GET /gateway/order responded 200 in 2125.7506 ms
+2025-11-15 17:28:54.455 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 2133.2329ms
+2025-11-15 17:28:57.961 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:28:57.969 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:28:57.973 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:28:57.979 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:28:57.982 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:17.182 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:29:17.186 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:29:17.187 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:29:17.189 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:29:17.191 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:29:17.308 +02:00 [INF] Received HTTP response headers after 115.853ms - 200
+2025-11-15 17:29:17.309 +02:00 [INF] End processing HTTP request after 119.7727ms - 200
+2025-11-15 17:29:17.317 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:29:17.319 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 129.8815ms
+2025-11-15 17:29:17.320 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:29:17.321 +02:00 [INF] HTTP GET /gateway/order responded 200 in 136.1095 ms
+2025-11-15 17:29:17.323 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 140.4043ms
+2025-11-15 17:29:17.334 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:29:17.336 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:29:17.337 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:29:17.338 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:29:17.339 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:29:17.371 +02:00 [INF] Received HTTP response headers after 30.6989ms - 200
+2025-11-15 17:29:17.372 +02:00 [INF] End processing HTTP request after 33.5934ms - 200
+2025-11-15 17:29:17.373 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:29:17.374 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 36.2915ms
+2025-11-15 17:29:17.376 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:29:17.377 +02:00 [INF] HTTP GET /gateway/order responded 200 in 40.5435 ms
+2025-11-15 17:29:17.378 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 43.8933ms
+2025-11-15 17:29:18.752 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:29:18.756 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:29:18.759 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:29:18.761 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:18.762 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:34.800 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:29:34.805 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:29:34.806 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:29:34.808 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:34.808 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:36.901 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:29:36.905 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:29:36.907 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:29:36.908 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:36.909 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:41.457 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:29:41.459 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:29:41.459 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:29:41.460 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:29:41.463 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:30:12.200 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:30:12.203 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:30:12.205 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:30:12.207 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:30:12.208 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:30:38.051 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 100073.8728ms
+2025-11-15 17:30:38.052 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:30:38.053 +02:00 [ERR] HTTP GET /api/product responded 500 in 100087.0949 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at ApiGateway.Controllers.ProductsController.Get() in C:\Users\nader\source\repos\BMBAssessment\ApiGateway\Controllers\ProductsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 17:30:38.079 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 499 null null 100118.0278ms
+2025-11-15 17:30:50.004 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/product - null null
+2025-11-15 17:30:50.007 +02:00 [INF] HTTP GET /gateway/product responded 404 in 0.2218 ms
+2025-11-15 17:30:50.008 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/product - 404 0 null 3.9065ms
+2025-11-15 17:30:50.012 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/product, Response status code: 404
+2025-11-15 17:30:50.015 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order/3 - null null
+2025-11-15 17:30:50.017 +02:00 [INF] HTTP GET /gateway/order/3 responded 404 in 0.0884 ms
+2025-11-15 17:30:50.018 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order/3 - 404 0 null 2.3815ms
+2025-11-15 17:30:50.020 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7259/gateway/order/3, Response status code: 404
+2025-11-15 17:30:50.030 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:30:50.033 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:30:50.037 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:30:50.039 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:30:50.039 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:30:58.820 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 100059.1239ms
+2025-11-15 17:30:58.821 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:30:58.823 +02:00 [ERR] HTTP GET /api/product responded 500 in 100067.5533 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at ApiGateway.Controllers.ProductsController.Get() in C:\Users\nader\source\repos\BMBAssessment\ApiGateway\Controllers\ProductsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 17:30:58.832 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 499 null null 100080.4974ms
+2025-11-15 17:32:27.270 +02:00 [INF] User profile is available. Using 'C:\Users\nader\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-15 17:32:27.465 +02:00 [INF] Loading proxy data from config.
+2025-11-15 17:32:28.288 +02:00 [INF] Now listening on: http://localhost:5241
+2025-11-15 17:32:28.316 +02:00 [INF] Now listening on: https://localhost:7259
+2025-11-15 17:32:28.590 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 17:32:28.596 +02:00 [INF] Hosting environment: Development
+2025-11-15 17:32:28.597 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ApiGateway
+2025-11-15 17:32:34.736 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7259/auth/login - application/json; charset=utf-8 null
+2025-11-15 17:32:34.891 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:32:34.932 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ApiGateway.Controllers.LoginRequest) on controller ApiGateway.Controllers.AuthController (ApiGateway).
+2025-11-15 17:32:35.069 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-15 17:32:35.096 +02:00 [INF] Executed action ApiGateway.Controllers.AuthController.Login (ApiGateway) in 153.5407ms
+2025-11-15 17:32:35.107 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.AuthController.Login (ApiGateway)'
+2025-11-15 17:32:35.111 +02:00 [INF] HTTP POST /auth/login responded 200 in 317.2119 ms
+2025-11-15 17:32:35.118 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7259/auth/login - 200 null application/json; charset=utf-8 385.3272ms
+2025-11-15 17:32:35.185 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:32:35.279 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:32:35.293 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:32:35.315 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:32:35.322 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:32:35.680 +02:00 [INF] Received HTTP response headers after 346.7885ms - 404
+2025-11-15 17:32:35.761 +02:00 [INF] End processing HTTP request after 448.5297ms - 404
+2025-11-15 17:32:35.767 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:32:35.772 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 475.565ms
+2025-11-15 17:32:35.775 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:32:35.777 +02:00 [INF] HTTP GET /gateway/order responded 404 in 588.3579 ms
+2025-11-15 17:32:35.781 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 596.3419ms
+2025-11-15 17:33:11.896 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:11.901 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:11.902 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:11.903 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:11.904 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:11.932 +02:00 [INF] Received HTTP response headers after 26.92ms - 404
+2025-11-15 17:33:11.933 +02:00 [INF] End processing HTTP request after 29.9853ms - 404
+2025-11-15 17:33:11.935 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:33:11.936 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 33.2202ms
+2025-11-15 17:33:11.937 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:11.938 +02:00 [INF] HTTP GET /gateway/order responded 404 in 40.2371 ms
+2025-11-15 17:33:11.939 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 43.8229ms
+2025-11-15 17:33:12.971 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:12.975 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:12.976 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:12.978 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:12.978 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:12.993 +02:00 [INF] Received HTTP response headers after 14.3456ms - 404
+2025-11-15 17:33:12.995 +02:00 [INF] End processing HTTP request after 17.2893ms - 404
+2025-11-15 17:33:12.996 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:33:12.997 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 19.5224ms
+2025-11-15 17:33:12.998 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:12.999 +02:00 [INF] HTTP GET /gateway/order responded 404 in 24.3406 ms
+2025-11-15 17:33:13.001 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 29.5872ms
+2025-11-15 17:33:13.088 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:13.091 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:13.092 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:13.094 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:13.095 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:13.105 +02:00 [INF] Received HTTP response headers after 9.0134ms - 404
+2025-11-15 17:33:13.105 +02:00 [INF] End processing HTTP request after 11.6704ms - 404
+2025-11-15 17:33:13.106 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:33:13.107 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 13.8258ms
+2025-11-15 17:33:13.108 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:13.109 +02:00 [INF] HTTP GET /gateway/order responded 404 in 17.9122 ms
+2025-11-15 17:33:13.110 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 21.8032ms
+2025-11-15 17:33:22.476 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:22.479 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:22.480 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:24.768 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:24.770 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:24.797 +02:00 [INF] Received HTTP response headers after 25.3084ms - 404
+2025-11-15 17:33:24.800 +02:00 [INF] End processing HTTP request after 32.0843ms - 404
+2025-11-15 17:33:28.910 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:33:28.912 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 6428.6994ms
+2025-11-15 17:33:28.913 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:28.915 +02:00 [INF] HTTP GET /gateway/order responded 404 in 6436.4457 ms
+2025-11-15 17:33:28.919 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 6442.6139ms
+2025-11-15 17:33:44.521 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:44.524 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:44.525 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:46.678 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:46.679 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:46.705 +02:00 [INF] Received HTTP response headers after 24.9074ms - 404
+2025-11-15 17:33:46.706 +02:00 [INF] End processing HTTP request after 28.2595ms - 404
+2025-11-15 17:33:53.419 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:33:53.426 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 8899.2815ms
+2025-11-15 17:33:53.427 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:53.427 +02:00 [INF] HTTP GET /gateway/order responded 404 in 8903.9371 ms
+2025-11-15 17:33:53.429 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 8907.3912ms
+2025-11-15 17:33:55.329 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:33:55.333 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:33:55.333 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:33:58.703 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:58.705 +02:00 [INF] Sending HTTP request GET http://localhost:5142/gateway/order
+2025-11-15 17:33:58.725 +02:00 [INF] Received HTTP response headers after 19.251ms - 404
+2025-11-15 17:33:58.726 +02:00 [INF] End processing HTTP request after 22.6694ms - 404
+2025-11-15 17:34:12.144 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-11-15 17:34:12.146 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 16811.2095ms
+2025-11-15 17:34:12.149 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:34:12.151 +02:00 [INF] HTTP GET /gateway/order responded 404 in 16818.4091 ms
+2025-11-15 17:34:12.153 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 404 null text/plain; charset=utf-8 16824.1392ms
+2025-11-15 17:34:13.226 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/gateway/order - null null
+2025-11-15 17:34:13.232 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:34:13.238 +02:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders() on controller ApiGateway.Controllers.OrdersController (ApiGateway).
+2025-11-15 17:34:15.546 +02:00 [INF] Start processing HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:34:15.547 +02:00 [INF] Sending HTTP request GET http://localhost:5142/api/order
+2025-11-15 17:34:21.541 +02:00 [INF] Received HTTP response headers after 5993.2425ms - 200
+2025-11-15 17:34:21.542 +02:00 [INF] End processing HTTP request after 5996.7417ms - 200
+2025-11-15 17:34:22.323 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiGateway.Controllers.OrdersController+OrderDto, ApiGateway, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-15 17:34:22.332 +02:00 [INF] Executed action ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway) in 9091.3624ms
+2025-11-15 17:34:22.335 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.OrdersController.GetOrders (ApiGateway)'
+2025-11-15 17:34:22.336 +02:00 [INF] HTTP GET /gateway/order responded 200 in 9104.7905 ms
+2025-11-15 17:34:22.338 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/gateway/order - 200 null application/json; charset=utf-8 9111.8357ms
+2025-11-15 17:34:24.774 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7259/api/product - null null
+2025-11-15 17:34:24.778 +02:00 [INF] Executing endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:34:24.783 +02:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller ApiGateway.Controllers.ProductsController (ApiGateway).
+2025-11-15 17:34:24.787 +02:00 [INF] Start processing HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:34:24.788 +02:00 [INF] Sending HTTP request GET https://localhost:6001/api/product
+2025-11-15 17:34:26.916 +02:00 [INF] Received HTTP response headers after 2126.1843ms - 200
+2025-11-15 17:34:26.917 +02:00 [INF] End processing HTTP request after 2129.76ms - 200
+2025-11-15 17:34:26.936 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Text.Json.JsonElement'.
+2025-11-15 17:34:26.946 +02:00 [INF] Executed action ApiGateway.Controllers.ProductsController.Get (ApiGateway) in 2160.7091ms
+2025-11-15 17:34:26.948 +02:00 [INF] Executed endpoint 'ApiGateway.Controllers.ProductsController.Get (ApiGateway)'
+2025-11-15 17:34:26.948 +02:00 [INF] HTTP GET /api/product responded 200 in 2170.3553 ms
+2025-11-15 17:34:26.950 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7259/api/product - 200 null application/json; charset=utf-8 2176.1177ms
