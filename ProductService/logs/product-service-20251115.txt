@@ -69,3 +69,8 @@
 2025-11-15 11:38:24.396 +02:00 [INF] Executed action ProductService.Controllers.ProductController.Create (ProductService) in 28.2945ms
 2025-11-15 11:38:24.397 +02:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.Create (ProductService)'
 2025-11-15 11:38:24.398 +02:00 [INF] Request finished HTTP/2 POST https://localhost:6001/api/Product - 400 null application/problem+json; charset=utf-8 43.3545ms
+2025-11-15 11:52:17.834 +02:00 [INF] Now listening on: https://localhost:6001
+2025-11-15 11:52:17.865 +02:00 [INF] Now listening on: http://localhost:5211
+2025-11-15 11:52:17.902 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-15 11:52:17.904 +02:00 [INF] Hosting environment: Development
+2025-11-15 11:52:17.904 +02:00 [INF] Content root path: C:\Users\nader\source\repos\BMBAssessment\ProductService
