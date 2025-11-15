@@ -1,0 +1,15 @@
+# Visual Studio / .NET ignore rules
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.ide
+*.dbmdl
+*.pdb
+*.tmp
+*.log
+*.nupkg
+*.snk
+*.sqlite
